@@ -297,10 +297,6 @@
         display: grid;
         grid-template-columns: 100%;
     }
-    .ExpandEdu{
-        display: flex;
-        justify-content:start;
-    }
     .ExpandEdu>div{
         margin-top: 0px;
         padding: 7px;
