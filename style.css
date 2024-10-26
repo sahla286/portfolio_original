@@ -1,0 +1,292 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Kalam", cursive;
+    font-style: normal;
+}
+.header{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    /* position: sticky;
+    top: 0px; */
+}
+#logo{
+    height: 100px;
+    width: 100px;
+}
+.navlinks{
+    padding: 30px;
+}
+.navlinks>a{
+    margin-right: 30px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    font-weight: bolder;
+    transition: font-size 1s;
+}
+.navlinks>a:hover{
+    font-size: 35px;
+    color: red;
+}
+#home{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 50px;
+}
+.desc{
+    padding: 50px;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#cv{
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    width: fit-content;
+    border-radius: 10px;
+    padding: 5px;
+    margin-left: 80px;
+}
+.sociallinks{
+    padding-left: 132px;
+}
+.sociallinks>a {
+    color: black;
+    text-decoration: none;
+}
+#name{
+    color: rgb(80, 80, 148);
+}
+#greeting{
+    margin-left: 85px;
+}
+#role{
+    margin-left: 15px;
+}
+.imgcontainer{
+    position: relative;
+}
+.img1{
+  width: 100%;
+  position: relative;
+}
+.img2{
+    width: 60%;
+    position: absolute;
+    left: 100px;
+    bottom:0px ;
+    transition: width 1s;
+}
+.img2:hover{
+    width: 70%;
+}
+
+
+
+
+#about{
+    padding: 30px;
+    margin-top: 70px;
+    margin-bottom: -110px;
+}
+#about>h1{
+    margin-top: 30px;
+    margin-bottom: 90px;
+    text-align: center;
+}
+.abtcontainer{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.ExpandEdu{
+    display: flex;
+    justify-content:space-evenly;
+}
+.ExpandEdu>div{
+    margin-top: 20px;
+    border: 2px solid #000;
+    padding: 20px;
+    width: 45%; 
+    border-radius: 10px
+}
+#award{
+    padding-left: 100px;
+}
+#graduate{
+    padding-left: 100px;
+}
+.Exp>h3{
+    padding-left: 57px;
+}
+.Exp>p{
+    padding-left: 26px;
+}
+#mon{
+    padding-left: 42px;
+}
+.edu>h3{
+    padding-left: 59px;
+}
+.edu>p{
+    padding-left: 20px;
+}
+#abtimg{
+    width: 100%;
+    height: 70%;
+}
+.abtinfo{
+    padding-left: 30px;
+}
+.abtinfo>p{
+    text-align: justify;
+}
+
+
+#contact{
+    padding-bottom: 230px;
+    margin-top: 180px;
+}
+#contact>h1{
+    padding-bottom: 130px;
+    text-align: center;
+}
+.contactme{
+    border: 2px solid black;
+    padding: 15px;
+    margin-left: 480px;
+    width: 290px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+.contactme>i{
+    margin-right: 10px; 
+}
+.contactme>a{
+    margin-left: -8px;
+    text-decoration: none;
+    color: black;
+    margin-right: 17px;
+}
+
+
+#skills{
+    background-image: url(./images/img12.png);
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position: 50%;
+    /* opacity: 0.5; */
+}
+
+.lang{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#skills>h1{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.lang>div{
+    margin-top: 45px;
+    border: 2px solid #000;
+    padding: 20px;
+    width: 45%; 
+    border-radius: 10px
+}
+
+.pl{
+    margin-left: 290px;
+}
+.wd{
+    margin-left: 50px;
+}
+.db{
+    margin-left: 290px;
+}
+.tools{
+    margin-left: 50px;
+}
+
+
+#projects>h1{
+    margin-bottom: -48px;
+    text-align: center;
+    margin-top: 130px;
+}
+.latestproject{
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    grid-template-rows: 55% 55% 55%;
+    margin: 110px;
+    justify-content: space-between;
+}
+.latestproject>div{
+    margin-top: 20px;
+    border: 2px solid #000;
+    padding: 20px;
+    width: fit-content; 
+    border-radius: 10px
+    
+}
+.latestproject>div>img{
+    margin-left: 23px;
+    width: 80%;
+    height:60%
+}
+/* .latestproject>div>button{
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    margin-left: 19px;
+    width: fit-content;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+} */
+.latestproject>div>a{
+    margin-top: -24px;
+    border: 2px solid black;
+    margin-left: 111px;
+    width: fit-content;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+}
+#pro1detail{
+    margin-left: 12px;
+    margin-top: auto;
+}
+
+.footerlinks{
+    padding: 10px;
+    border-top: 2px solid black;
+    display: flex;
+    justify-content: center;
+    gap: 30px; 
+    height: 50px; 
+}
+
+.footerlinks>a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-weight: bolder;
+}
+
+
+
+
+html{
+    scroll-behavior: smooth;
+}
