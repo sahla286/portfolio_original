@@ -6,7 +6,6 @@
     font-style: normal;
 }
 
-
 .header{
     padding: 20px;
     display: flex;
@@ -34,6 +33,25 @@
     color: red;
 }
 
+@media screen and (max-width: 600px) {
+    .header{
+        padding: 0px;
+    }
+    #logo{
+        height: 55px;
+        width: 50px;
+    }
+    .navlinks{
+        padding: 15px;
+    }
+    .navlinks>a{
+      font-size:10px;
+    }
+    .navlinks>a:hover{
+        font-size: 15px;
+
+    }
+  }
 
 #home{
     display: grid;
@@ -90,6 +108,24 @@
     width: 70%;
 }
 
+@media screen and (max-width: 600px) {
+    .desc{
+        padding: 20px;
+        font-size: 15px;
+    }
+    #cv{
+        margin-left: 55px;
+    }
+    .sociallinks{
+        padding-left: 90px;
+    }
+    #greeting{
+        margin-left: 60px;
+    }
+    .img2{
+        left: 70px;
+    }
+  }
 
 #about{
     padding: 30px;
@@ -149,6 +185,55 @@
     text-align: justify;
 }
 
+@media screen and (max-width: 600px) {
+    #about{
+        padding: 30px;
+        margin-top: 70px;
+        margin-bottom: 30px;
+    }
+    .abtcontainer{
+        padding: 0px;
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    .ExpandEdu{
+        display: flex;
+        justify-content:space-between;
+    }
+    .ExpandEdu>div{
+        margin-top: 20px;
+        padding: 25px;
+        width: 100%; 
+        border-radius: 10px
+    }
+    #award{
+        padding-left: 70px;
+    }
+    #graduate{
+        padding-left: 70px;
+    }
+    .Exp>h3{
+        padding-left: 25px;
+    }
+    .Exp>p{
+        padding-left: 25px;
+    }
+    #mon{
+        padding-left: 15px;
+    }
+    .edu>h3{
+        padding-left: 35px;
+    }
+    .edu>p{
+        padding-left: 15px;
+    }
+    #abtimg{
+        width: 0%;
+        height: 0%;
+    }
+
+  }
+
 
 #skills{
     background-image: url(./images/img12.png);
@@ -184,6 +269,23 @@
 .tools{
     margin-left: 50px;
 }
+
+@media screen and (max-width: 600px) {
+    #skills{
+        background-size: 0%;
+        background-position: 0%;
+    }
+    .lang{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    .lang>div{
+        padding: 10px;
+        width: 50%; 
+        margin-left: 125px;
+    }
+  }
+
 
 
 #projects>h1{
@@ -228,6 +330,25 @@
     margin-top: auto;
 }
 
+@media screen and (max-width: 600px) {
+    .latestproject{
+        padding: 0px;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 35% 35%;
+        margin: 10px;
+        justify-content: space-between;
+    }
+    .latestproject>div{
+        margin-top: 90px;
+        padding: 10px;
+    }
+    .latestproject>div>img{
+        width: 80%;
+        height:50%
+    }
+  }
+
 
 #contact{
     padding-bottom: 230px;
@@ -256,6 +377,16 @@
     margin-right: 17px;
 }
 
+@media screen and (max-width: 600px) {
+    #contact{
+        margin-top: 100px;
+    }
+    .contactme{
+        margin-left: 100px;
+    }
+  }
+
+
 
 .footerlinks{
     padding: 10px;
@@ -276,3 +407,9 @@
 html{
     scroll-behavior: smooth;
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
