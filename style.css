@@ -166,7 +166,7 @@
         margin-left: 0px;
     }
     .img2{
-        top: 53px;
+        top: 50px;
         left: 40px;
     }
   }
@@ -189,6 +189,7 @@
 .ExpandEdu{
     display: flex;
     justify-content:space-evenly;
+    align-items: center;
 }
 .ExpandEdu>div{
     margin-top: 20px;
