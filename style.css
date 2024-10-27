@@ -46,7 +46,7 @@
     }
     .navlinks>a{
         margin-right: 17px;
-        font-size:10px;
+        font-size:20px;
     }
     .navlinks>a:hover{
         font-size: 15px;
@@ -54,16 +54,16 @@
     }
   }
   @media screen and (max-width: 400px) {
-    .header{
+    /* .header{
         padding: 0px;
     }
     #logo{
         height: 55px;
         width: 50px;
-    }
-    .navlinks{
+    } */
+    /* .navlinks{
         padding: 15px;
-    }
+    } */
     .navlinks>a{
         margin-right: 17px;
         font-size:10px;
@@ -149,10 +149,10 @@
 
 
   @media screen and (max-width: 400px) {
-    .desc{
+    /* .desc{
         padding: 20px;
         font-size: 15px;
-    }
+    } */
     #cv{
         margin-left: 0px;
     }
